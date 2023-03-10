@@ -4,6 +4,9 @@ const Login = (props) => {
   return (
     <Container>
       <Content>
+        <CTA>
+          <CTALogoOne src="/images/cta-logo-one.png" alt=""/>
+        </CTA>
         <BgImage />
       </Content>
     </Container>
@@ -37,7 +40,7 @@ const BgImage = styled.div`
     background-position:top;
     background-size:cover;
     background-react:no-repeat;
-    background-image : url("./images/login-background.jpg");
+    background-image : url("/images/login-background.jpg");
     position: absolute;
     top:0;
     right:0;
@@ -47,4 +50,15 @@ const BgImage = styled.div`
 
 
 `;
+
+
+const CTA = styled.div`
+
+
+
+`;
+
+const CTALogoOne = styled.img`;`
+
+
 export default Login;
